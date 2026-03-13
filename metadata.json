@@ -1,0 +1,5 @@
+{
+  "name": "Autonomous Agent Creator",
+  "description": "A framework to design and generate autonomous AI agents using various SDKs and languages.",
+  "requestFramePermissions": []
+}
