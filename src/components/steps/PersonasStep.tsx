@@ -86,6 +86,7 @@ export function PersonasStep({ config, updateConfig, onNext, onBack }: Props) {
                   size="icon"
                   className="absolute top-2 right-2 text-zinc-400 hover:text-red-500"
                   onClick={() => removeAgent(agent.id)}
+                  aria-label={`Remove ${agent.name || 'agent'}`}
                 >
                   <Trash2 className="w-4 h-4" />
                 </Button>

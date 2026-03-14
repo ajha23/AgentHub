@@ -1,0 +1,3 @@
+## 2024-05-14 - Missing ARIA Labels on Icon-only Buttons
+**Learning:** Found that the custom `Button` component with `size="icon"` does not inherently enforce accessibility, leading to icon-only buttons (like the `Trash2` remove agent button) missing `aria-label` attributes. This causes screen readers to skip or poorly announce the button's purpose.
+**Action:** Always verify that any `<Button size="icon">` instance in the application includes a descriptive `aria-label` or uses visually hidden text for screen readers.
